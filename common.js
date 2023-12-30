@@ -1,7 +1,7 @@
 var parsedUrl = new URL(window.location.href);
 
 function query() {
-    fetch("http://" + parsedUrl.host + "/query", {
+    fetch("https://" + parsedUrl.host + "/query", {
         method: "GET",
         mode: "no-cors",
     })
