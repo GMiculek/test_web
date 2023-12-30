@@ -1,5 +1,6 @@
 var parsedUrl = new URL(window.location.href);
 
+/*
 function query() {
     fetch(parsedUrl.host + "/query", {
         method: "GET",
@@ -16,3 +17,23 @@ function query() {
         console.log(err);
     })
 }
+
+*/
+
+function query() {
+    //fetch(parsedUrl.host + "/query", {
+      //  method: "GET",
+        //mode: "no-cors",
+    //})
+    //.then((resp) => resp.text())
+    //.then((data) => {
+        document.getElementById("hi").innerHTML = data;
+		
+
+		
+    //})
+    .catch((err) => {
+        console.log(err);
+    })
+}
+
