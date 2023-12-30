@@ -38,7 +38,7 @@ app.get("/query", function (request, response) {
 
 */
 
-app.get("/query", function (request, response) {
+//app.get("/query", function (request, response) {
   connection.query(SQL, [true], (error, results, fields) => {
     if (error) {
       console.error(error.message);
@@ -48,7 +48,7 @@ app.get("/query", function (request, response) {
       response.send("hi");
     }
   });
-})
+//})
 
 
 app.listen(PORT, HOST);
