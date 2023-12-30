@@ -5,14 +5,11 @@ function query() {
         method: "GET",
         mode: "no-cors",
     })
-    //.then((resp) => resp.text())
-    //.then((data) => {
-        //document.getElementById("response").innerHTML = data;
-		
-	.then((resp) => parsedUrl.host.text())
+    .then((resp) => resp.text())
     .then((data) => {
         document.getElementById("response").innerHTML = data;
 		
+
 		
     })
     .catch((err) => {
