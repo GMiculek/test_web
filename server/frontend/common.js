@@ -30,8 +30,5 @@ function query() {
 
 function return() {
    
-        location.replace('https://gmiculek.github.io/test_web/server/frontend/index.html');
-		
-
-		
+       location.replace('https://gmiculek.github.io/test_web/server/frontend/index.html');
 }
