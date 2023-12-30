@@ -21,7 +21,7 @@ var parsedUrl = new URL(window.location.href);
 
 function query() {
    
-        location.replace('https://gmiculek.github.io/test_web/server/frontend/register.html');
+        location.replace('https://gmiculek.github.io/test_web/server/frontend/index.html');
 		
 
 		
