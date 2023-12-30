@@ -34,6 +34,8 @@ function query() {
     //})
     .catch((err) => {
         console.log(err);
-    })
+    //})
+	
+	location.replace('/index.html');
 }
 
