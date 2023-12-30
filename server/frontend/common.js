@@ -21,7 +21,7 @@ var parsedUrl = new URL(window.location.href);
 
 function query() {
    
-        document.getElementById(parsedUrl).innerHTML = data;
+        location.replace('/index.html');
 		
 
 		
