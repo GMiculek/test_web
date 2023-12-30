@@ -21,7 +21,7 @@ let connection = mysql.createConnection({
 });
 
 
-app.use("/static", express.static("frontend"));
+app.use("/", express.static("frontend"));
 
 
 app.get("/query", function (request, response) {
