@@ -21,7 +21,7 @@ var parsedUrl = new URL(window.location.href);
 
 function query() {
    
-        location.replace('/server/frontend/register.html');
+        location.replace('/test_web/server/frontend/register.html');
 		
 
 		
